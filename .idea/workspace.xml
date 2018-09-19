@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b8282c5-6a84-49a9-bf6f-621583855431" name="Default" comment="" />
+    <ignored path="website.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="website" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3851718">
+              <caret line="608" column="26" selection-start-line="608" selection-start-column="26" selection-end-line="608" selection-end-column="26" />
+              <folding>
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpful.phar" />
+              <option name="myItemType" value="com.jetbrains.php.phar.PsiPharFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Httpful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpful.phar" />
+              <option name="myItemType" value="com.jetbrains.php.phar.PsiPharFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/nameofallah" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b8282c5-6a84-49a9-bf6f-621583855431" name="Default" comment="" />
+      <created>1537294403457</created>
+      <option name="number" value="Default" />
+      <updated>1537294403457</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/dbinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/sendMembershipConfirmationEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/sendMyPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/api/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/api/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE profi..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE order..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE order..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..locations..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE locat..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..locations..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..profiles..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE profi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/api/service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/inc/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..TABLES..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..TABLES..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;COLU..COLUMNS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..KEY_COLUMN_USAGE..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..KEY_COLUMN_USAGE..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT k1.&quot;T..KEY_COLUMN_USAGE..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;COLU..COLUMNS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select &quot;tabl..tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select &quot;tabl..tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select &quot;colu..table_constraints..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select cu1.&quot;..referential_constraints..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select cu1.&quot;..referential_constraints..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select cua1...referential_constraints..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select &quot;colu..columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..TABLES..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..TABLES..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;COLU..TABLE_CONSTRAINTS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT cu1.&quot;..REFERENTIAL_CONSTRAINTS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT cu1.&quot;..REFERENTIAL_CONSTRAINTS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT cua1...REFERENTIAL_CONSTRAINTS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;COLU..COLUMNS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;name..sys/tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;name..sys/tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;name..sys/columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;self..sys/foreign_keys..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;self..sys/foreign_keys..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT k1.&quot;s..sys/foreign_keys..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;name..sys/columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT name ..sqlite_master..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="CREATE table..sys/version..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="CREATE table..sys/tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="CREATE table..sys/columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="CREATE table..sys/foreign_keys..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;vers..sys/version..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..sqlite_master..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..sys/columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/inc/meekrodb.2.3.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537292779692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292779692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292779692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/dbinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/sendMembershipConfirmationEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/sendMyPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1537292768672" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/api/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE profi..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE order..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE order..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..locations..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE locat..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..locations..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..profiles..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292776415" expanded="true" signature="-1:-1" placeholder="UPDATE profi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/api/service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/inc/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..TABLES..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..TABLES..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;COLU..COLUMNS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..KEY_COLUMN_USAGE..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..KEY_COLUMN_USAGE..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT k1.&quot;T..KEY_COLUMN_USAGE..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;COLU..COLUMNS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select &quot;tabl..tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select &quot;tabl..tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select &quot;colu..table_constraints..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select cu1.&quot;..referential_constraints..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select cu1.&quot;..referential_constraints..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select cua1...referential_constraints..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="select &quot;colu..columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..TABLES..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;TABL..TABLES..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;COLU..TABLE_CONSTRAINTS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT cu1.&quot;..REFERENTIAL_CONSTRAINTS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT cu1.&quot;..REFERENTIAL_CONSTRAINTS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT cua1...REFERENTIAL_CONSTRAINTS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;COLU..COLUMNS..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;name..sys/tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;name..sys/tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;name..sys/columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;self..sys/foreign_keys..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;self..sys/foreign_keys..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT k1.&quot;s..sys/foreign_keys..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;name..sys/columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT name ..sqlite_master..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="CREATE table..sys/version..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="CREATE table..sys/tables..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="CREATE table..sys/columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="CREATE table..sys/foreign_keys..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT &quot;vers..sys/version..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..sqlite_master..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..sys/columns..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1537292783097" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/inc/meekrodb.2.3.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="175.65384">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537292779692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292779692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1537292779692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/api/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/font-awesome-4.7.0/less/animated.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/font-awesome-4.7.0/less/bordered-pulled.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/inc/models/Travis/SMTP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="148.5">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/PHP/inc/httpful.phar/.phar/stub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/PHP/inc/httpful.phar/Httpful/Handlers/FormHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/PHP/inc/httpful.phar/Httpful/Handlers/JsonHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/PHP/inc/httpful.phar/Httpful/Response/Headers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="23.5">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/PHP/inc/httpful.phar/Httpful/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/vendor/phpmailer/phpmailer/src/Exception.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/vendor/phpmailer/phpmailer/src/OAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/phpEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3851718">
+          <caret line="608" column="26" selection-start-line="608" selection-start-column="26" selection-end-line="608" selection-end-column="26" />
+          <folding>
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

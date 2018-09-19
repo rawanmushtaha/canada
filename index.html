@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Free Topping Pizza</title>
+<!-- 
+<link href="css/bootstrap.css" rel="stylesheet">
+ -->
+<link
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+	crossorigin="anonymous">
+
+<link href="css/all.min.css" rel="stylesheet">
+<link href="css/bootstrap-switch.min.css" rel="stylesheet">
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/price-range.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/jquery-confirm.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+<link href="css/responsive.css" rel="stylesheet">
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+<link rel="shortcut icon" href="images/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	href="images/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="images/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="images/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed"
+	href="images/ico/apple-touch-icon-57-precomposed.png">
+<link
+	href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css"
+	rel="stylesheet">
+	
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="javascript:display('main');"> <img
+					class="img-rounded" alt="Brand" src="images/home/logo.png"
+					style="height: 24px;">
+				</a>
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#topnavbar"
+					aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="topnavbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="javascript:showDeals()"><i
+							class="fa fa-bell-o"></i> Specials</a></li>
+					<li><a href="javascript:showMenus()"><i
+							class="fa fa-crosshairs"></i> Menu</a></li>
+					<!-- -->
+					<li><a href="javascript:showCart()"><i 
+							class="fa fa-shopping-cart"></i> Cart <span class="cartCnt badge badge-success"></span></a></li>
+			<!-- -->
+					<li class="offline"><a href="javascript:login(false)"><i
+							class="fa fa-lock"></i> Login</a></li>
+					<li class="online"><a href="javascript:display('clientpage')"><i
+							class="fa fa-user"></i> <span class="clientname"></span></a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="javascript:aboutUs()"><i
+							class="fa fa-commenting-o"></i> </a></li>
+					<li><a href="tel:4164999499"><i class="fa fa-phone"></i> </a></li>
+					<li><a href="mailto:info@bsmarter.ca"><i
+							class="fa fa-envelope"></i> </a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+	<section id="main">
+		<div class="container">
+			<!-- <a href="javascript:showCart()"
+				class="cart-menu btn btn-circle btn-success"><i
+				class="fa fa-shopping-cart"></i> <span
+				class="cartCnt badge badge-success"></span></a>  -->
+			<div class="row">
+				<div id="custom-search-input">
+					<div class="input-group col-xs-4 col-xs-offset-6">
+						<input type="text" class="search-query form-control"
+							placeholder="Search" /> <span class="input-group-btn">
+							<button class="btn btn-danger" type="button"
+								onclick="performSearch();">
+								<span class=" glyphicon glyphicon-search"></span>
+							</button>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="main-carousel" class="carousel slide" data-interval="5000"
+						data-ride="carousel">
+						<ol id="main-ids" class="carousel-indicators">
+							<li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#main-carousel" data-slide-to="1"></li>
+							<li data-target="#main-carousel" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner" id="main-items">
+							<div class="item active">
+								<div class="col-sm-6">
+									<h1>
+										<span>Single</span> Special
+									</h1>
+									<h2>Ge a single pizza</h2>
+									<p>And add as many toppings you want!</p>
+									<h6>
+										$10.99 Small<br>$12.99 Medium
+									</h6>
+									<button type="button" class="btn btn-default get">Add
+										to cart</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="images/pics/deal_1.png" class="deal img-responsive"
+										alt="" /> <img src="images/home/10.99.png" class="pricing"
+										alt="" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-sm-6">
+									<h1>
+										<span>Double</span> Special
+									</h1>
+									<h2>Ge two pizzas</h2>
+									<p>And add as many toppings you want!</p>
+									<button type="button" class="btn btn-default get">Get
+										it now</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="images/pics/deal_2.png" class="deal img-responsive"
+										alt="" /> <img src="images/home/19.99.png" class="pricing"
+										alt="" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-sm-6">
+									<h1>
+										<span>Triple</span> Special
+									</h1>
+									<h2>Ge three pizzas</h2>
+									<p>And add as many toppings you want!</p>
+									<button type="button" class="btn btn-default get">Get
+										it now</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="images/pics/deal_3.png" class="deal img-responsive"
+										alt="" /> <img src="images/home/25.99.png" class="pricing"
+										alt="" />
+								</div>
+							</div>
+						</div>
+						<a href="#main-carousel" class="left control-carousel hidden-xs"
+							data-slide="prev"> <i class="fa fa-angle-left"></i>
+						</a> <a href="#main-carousel" class="right control-carousel hidden-xs"
+							data-slide="next"> <i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="cartPage" style="display: none;">
+		<div class="container">
+			<div id="cartRows"></div>
+			<div class="row" style="margin-bottom: 5px;">
+				<div class="table-responsive">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td class="col-sm-4 text-left">
+									<h5 class="hidden-xs hidden-sm">
+										<a href="javascript:emptyCart()" class="btn btn-danger">
+											<i class="fa fa-trash-o fa-3x"
+											style="vertical-align: middle;"></i> Empty Cart
+										</a>
+									</h5> <span class="hidden-lg hidden-md"> <a
+										href="javascript:emptyCart()" class="btn btn btn-danger">
+											<i class="fa fa-trash-o" style="vertical-align: middle;"></i>
+											Empty Cart
+									</a>
+								</span>
+								</td>
+								<td class="col-sm-2 text-center">
+									<h3>
+										<span class="item-total">$0.00</span>
+									</h3>
+								</td>
+								<td class="col-sm-4 text-right">
+									<h5 class="hidden-xs hidden-sm">
+										<a href="javascript:checkout()" class="btn btn-primary">
+											<i class="fa fa-money fa-3x" style="vertical-align: middle;"></i>
+											Checkout
+										</a>
+									</h5> <span class="hidden-lg hidden-md"> <a
+										href="javascript:checkout()" class="btn btn-primary"> <i
+											class="fa fa-money" style="vertical-align: middle;"></i>
+											Checkout
+									</a>
+								</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="clientpage" style="display: none;">
+		<div class="container">
+			<a href="javascript:showCart()"
+				class="cart-menu btn btn-circle btn-success"><i
+				class="fa fa-shopping-cart"></i> <span
+				class="cartCnt badge badge-success"></span></a>
+			<div class="companyinfo text-center">
+				<h2>
+					<span class="clientname"></span>
+				</h2>
+				<hr width="85%">
+			</div>
+			<div class="row" id="userProfileActions" style="margin-bottom: 30px;">
+				<div class="col-md-4 text-center">
+					<a href="javascript:editProfile();" class="btn btn-primary"><span
+						class="fa fa-user fa-3x"></span> Profile</a>
+				</div>
+				<div class="col-md-4 text-center">
+					<a href="javascript:userHistory();" class="btn btn-warning"><span
+						class="fa fa-history fa-3x"></span> Orders</a>
+				</div>
+				<div class="col-md-4 text-center">
+					<a href="javascript:logout();" class="btn btn-info"><span
+						class="fa fa-sign-out fa-3x"></span> Logout</a>
+				</div>
+			</div>
+			<div class="row" style="margin-bottom: 30px;">
+				<div id="userHistory" style="display: none;">
+					<div id="historyTable" class="table-responsive"></div>
+					<div class="col-md-4 text-center">
+						<a href="javascript:$('#userHistory').hide();$('#userProfileActions').show();" class="btn btn-info"><span
+						class="fa fa-sign-out fa-3x"></span> Back</a>
+					</div>
+				</div>
+				<div id="userProfileUpdate" style="display: none;">
+					<div class="col-xs-8">
+						<div class="input-group" style="margin: 5px;">
+							<span class="input-group-addon"><i
+								class="fa fa-credit-card fa-fw"></i></span> <input type="text"
+								name="pr-cardid" id="pr-cardid" disabled="disabled"
+								class="form-control" required="required"
+								placeholder="your membership card's number">
+						</div>
+						<div class="input-group" style="margin: 5px;">
+							<span class="input-group-addon"><i
+								class="fa fa-envelope-o fa-fw"></i></span> <input type="text"
+								name="pr-email" id="pr-email" class="form-control"
+								required="required" placeholder="your email">
+						</div>
+						<div class="input-group" style="margin: 5px;">
+							<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+							<input type="password" name="pr-password" id="pr-password"
+								class="form-control" required="required"
+								placeholder="your password">
+						</div>
+						<div class="input-group" style="margin: 5px;">
+							<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+							<input type="password" name="pr-password2" id="pr-password2"
+								class="form-control" required="required"
+								placeholder="repeat your password">
+						</div>
+						<div class="input-group" style="margin: 5px;">
+							<span class="input-group-addon"><i class="fa fa-map fa-fw"></i></span>
+							<input type="text" name="pr-address" id="pr-address"
+								class="form-control" required="required" placeholder="address">
+						</div>
+						<div class="input-group" style="margin: 5px;">
+							<span class="input-group-addon"><i
+								class="fa fa-edit fa-fw"></i></span> <input type="text"
+								name="pr-fullname" id="pr-fullname" class="form-control"
+								required="required" placeholder="full name">
+						</div>
+						<div class="input-group" style="margin: 5px;">
+							<span class="input-group-addon"><i
+								class="fa fa-phone fa-fw"></i></span> <input type="tel" name="pr-phone"
+								id="pr-phone" class="form-control" required="required"
+								placeholder="phone number">
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<div class="row">
+							<div class="col-xs-12  col-sm-6 text-center" style="margin: 5px;">
+								<a href="javascript:updateProfile();"
+									class="btn btn-block btn-info"><span
+									class="fa fa-check fa-2x"></span> Save</a>
+							</div>
+							<div class="col-xs-12 col-sm-6 text-center" style="margin: 5px;">
+								<a href="javascript:cancelProfileEdit();"
+									class="btn btn-block btn-danger"><span
+									class="fa fa-close fa-2x"></span> Cancel</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="menuPage" style="display: none;">
+		<div class="container">
+<!-- 		<a href="javascript:showCart()"
+			class="cart-menu btn btn-circle btn-success"><i
+			class="fa fa-shopping-cart"></i> <span
+			class="cartCnt badge badge-success"></span></a>
+ -->
+			<div class="row">
+				<div id="custom-search-input">
+					<div class="input-group col-xs-4 col-xs-offset-6">
+						<input type="text" class="search-query form-control"
+							placeholder="Search" /> 
+						<span class="input-group-btn">
+							<button class="btn btn-danger" type="button"
+								onclick="performSearch();">
+								<span class=" glyphicon glyphicon-search"></span>
+							</button>
+						</span>
+					</div>
+				</div>
+			</div>
+			<p class="pagetitle">Select a group and list of available items
+				will be displayed. Enjoy and remember why pay for a topping when you
+				can get it for free?</p>
+			<div class="row" id="topMenus">
+
+				<div id="menu-carousel" class="carousel slide" data-interval="5000"
+					data-ride="carousel">
+					<ol id="main-menu-ids" class="carousel-indicators">
+					</ol>
+					<div class="carousel-inner" id="main-menu-items">
+					</div>
+					<a href="#menu-carousel" class="left control-carousel hidden-xs"
+						data-slide="prev"> <i class="fa fa-angle-left"></i>
+					</a> <a href="#menu-carousel" class="right control-carousel hidden-xs"
+						data-slide="next"> <i class="fa fa-angle-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="row" id="childMenus" style="margin: 5px"></div>
+		</div>
+	</section>
+	<section id="signupPage" style="display: none;">
+		<div class="container">
+			<a href="javascript:showCart()"
+				class="cart-menu btn btn-circle btn-success"><i
+				class="fa fa-shopping-cart"></i> <span
+				class="cartCnt badge badge-success"></span></a>
+			<p class="pagetitle">Signing up enables you to place an order and
+				collect points.</p>
+			<div class="row">
+				<div class="input-group" style="margin: 5px;">
+					<span class="input-group-addon"><i
+						class="fa fa-credit-card fa-fw"></i></span> <input type="text"
+						name="su-cardid" id="su-cardid" class="form-control"
+						required="required" placeholder="your membership card's number">
+				</div>
+				<div class="input-group" style="margin: 5px;">
+					<span class="input-group-addon"><i
+						class="fa fa-envelope-o fa-fw"></i></span> <input type="text"
+						name="su-email" id="su-email" class="form-control"
+						required="required" placeholder="your email">
+				</div>
+				<div class="input-group" style="margin: 5px;">
+					<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+					<input type="password" name="su-password" id="su-password"
+						class="form-control" required="required"
+						placeholder="your password">
+				</div>
+				<div class="input-group" style="margin: 5px;">
+					<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+					<input type="password" name="su-password2" id="su-password2"
+						class="form-control" required="required"
+						placeholder="repeat your password">
+				</div>
+				<div class="input-group" style="margin: 5px;">
+					<span class="input-group-addon"><i class="fa fa-map fa-fw"></i></span>
+					<input type="text" name="su-address" id="su-address"
+						class="form-control" required="required" placeholder="address">
+				</div>
+				<div class="input-group" style="margin: 5px;">
+					<span class="input-group-addon"><i class="fa fa-edit fa-fw"></i></span>
+					<input type="text" name="su-firstname" id="su-firstname"
+						class="form-control" required="required" placeholder="first name">
+				</div>
+				<div class="input-group" style="margin: 5px;">
+					<span class="input-group-addon"><i class="fa fa-edit fa-fw"></i></span>
+					<input type="text" name="su-lastname" id="su-lastname"
+						class="form-control" required="required" placeholder="last name">
+				</div>
+				<div class="input-group" style="margin: 5px;">
+					<span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
+					<input type="tel" name="su-phone" id="su-phone"
+						class="form-control" required="required"
+						placeholder="phone number">
+				</div>
+				<div class="signup-form-ctrl"
+					style="margin-top: 10px; margin-bottom: 10px;">
+					<div class="form-group col-md-6 text-center">
+						<a href="javascript:loginPrc('U');"
+							class="btn btn-block btn-success"><span
+							class="glyphicon glyphicon-check"></span> Sign Up</a>
+					</div>
+					<div class="form-group col-md-6 text-center">
+						<a href="javascript:display('main');"
+							class="btn btn-block btn-warning"><span
+							class="glyphicon glyphicon-user"></span> Cancel</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="aboutusPage" style="display: none;">
+		<div class="container">
+			<a href="javascript:showCart()"
+				class="cart-menu btn btn-circle btn-success"><i
+				class="fa fa-shopping-cart"></i> <span
+				class="cartCnt badge badge-success"></span></a>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="companyinfo">
+						<h2>
+							<span>Arrura Plazza</span> Free Topping Pizza
+						</h2>
+						<p>Welcome to Our Website Free Topping Pizza started a decade
+							ago with a simple and innovative idea: customers should be able
+							to get exactly the pizza they want without having to worry about
+							additional charges for toppings. At Free Topping Pizza, we let
+							customers be in charge by allowing them to add all the toppings
+							they want for no extra charge. We're a rapidly growing company
+							dedicated to providing customers with the best quality pizza,
+							wings and sides for a great price. We know that satisfied
+							customers are the key to our success. That's why we offer
+							delicious food, fresh ingredients and excellent customer service,
+							all at amazing prices.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin: 60px;">
+				<div class="col-sm-12 text-center">
+					<img class="img-rounded img-responsive" alt="Brand"
+						src="images/home/biglogo.png">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="dealPage" style="display: none;">
+		<div class="container">
+			<div class="row">
+				<div id="custom-search-input">
+					<div class="input-group col-xs-4 col-xs-offset-6">
+						<input type="text" class="search-query form-control"
+							placeholder="Search" /> <span class="input-group-btn">
+							<button class="btn btn-danger" type="button"
+								onclick="performSearch();">
+								<span class=" glyphicon glyphicon-search"></span>
+							</button>
+						</span>
+					</div>
+				</div>
+			</div>
+			<a href="javascript:showCart()"
+				class="cart-menu btn btn-circle btn-success"><i
+				class="fa fa-shopping-cart"></i> <span
+				class="cartCnt badge badge-success"></span></a>
+			<p class="pagetitle">Check out our great specials and deals!</p>
+			<div id="dealsList"></div>
+		</div>
+	</section>
+	<section id="checkoutPage" style="display: none;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-8">
+					<div class="companyinfo text-center">
+						<h2>
+							<span id="delivery-pickup"></span>
+						</h2>
+						<hr width="85%">
+					</div>
+					<div class="input-group" style="margin: 5px;">
+						<span class="input-group-addon"><i
+							class="fa fa-truck fa-fw"></i></span>
+						<div class="dropdown pull-left">
+							<button class="btn btn-default dropdown-toggle" type="button"
+								id="ch-deliveryPickupList" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="true">
+								<span id="delivery-pickup2">Pickup or Delivery?</span> <span class="caret"></span>
+							</button>
+							<ul id="store-deliverypickup-dd" class="dropdown-menu"
+								aria-labelledby="ch-storeList">
+								<li><a href="javascript:setOrderMethod('D');">Delivery</a></li>
+								<li><a href="javascript:setOrderMethod('P');">Pickup</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="input-group" style="margin: 5px;">
+						<span class="input-group-addon"><i
+							class="fa fa-building fa-fw"></i></span>
+						<div class="dropdown pull-left">
+							<button class="btn btn-default dropdown-toggle" type="button"
+								id="ch-storeList" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="true">
+								<span id="selectedStore">SELECT STORE</span> <span class="caret"></span>
+							</button>
+							<ul id="store-list-dd" class="dropdown-menu"
+								aria-labelledby="ch-storeList">
+							</ul>
+						</div>
+						<div class="text-center pull-right">
+							<h5>
+								
+							</h5>
+						</div>
+					</div>
+					<div class="input-group" style="margin: 5px;">
+						<span class="input-group-addon"><i class="fa fa-map fa-fw"></i></span>
+						<input type="text" name="ch-address" id="ch-address"
+							class="form-control" required="required" placeholder="address">
+					</div>
+					<div class="input-group" style="margin: 5px;">
+						<span class="input-group-addon"><i
+							class="fa fa-pencil fa-fw"></i></span>
+						<textarea name="ch-instruction" id="ch-instruction"
+							class="form-control"
+							placeholder="Let us know about any instructions you may have."></textarea>
+					</div>
+					<div class="input-group" style="margin: 5px;">
+						<span class="input-group-addon"><i
+							class="fa fa-credit-card fa-fw"></i></span>
+						<div class="dropdown pull-left">
+							<button class="btn btn-default dropdown-toggle" type="button"
+								id="ch-payment" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="true">
+								<span id="selectedPayment">SELECT PAYMENT METHOD</span><span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="ch-payment">
+								<li><a href="javascript:setPayment('COD');">Cash On
+										Delivery</a></li>
+								<li><a href="javascript:setPayment('MC');">Master Card</a></li>
+								<li><a href="javascript:setPayment('VS');">Visa</a></li>
+								<li><a href="javascript:setPayment('AM');">Amex</a></li>
+								<li><a href="javascript:setPayment('DS');">Discover</a></li>
+								<li><a href="javascript:setPayment('DEB');">Debit</a></li>
+							</ul>
+						</div>
+						<div class="text-center pull-right">
+							<h5>
+								
+							</h5>
+						</div>
+					</div>
+					<div class="input-group" style="margin: 5px;">
+						<div class="input-group date form_datetime pull-left"
+							data-date-format="dd MM yyyy - HH:ii p"
+							data-link-field="dtp_input1">
+							<span class="input-group-addon"><i
+								class="fa fa-calendar fa-fw"></i></span> <input id="ch-time"
+								class="form-control" size="36" type="text" value="" readonly
+								placeholder="Select delivery time (leave empty for now)">
+							<span class="input-group-addon"> <span
+								class="glyphicon glyphicon-remove"></span>
+							</span>
+						</div>
+						<input type="hidden" id="dtp_input1" value="" /><br />
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div id="myMap" style="height: 300px;"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-6 text-right">
+					<h5>Sub total:</h5>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left">
+					<h5 id="ch-subtotal">$0.00</h5>
+				</div>
+			</div>
+			<div class="row" id="pointrow">
+				<div class="col-md-4 col-xs-6 text-right">
+					<a href="javascript:useMyReward(true);" class="btn btn-primary"
+						id="usePointBtn"><span class="fa fa-star"></span> Use Points
+						<span id="ch-mypoints"></span></a> <a
+						href="javascript:useMyReward(false);" class="btn btn-danger"
+						id="usePointBtnX" style="display: none;"><span
+						class="fa fa-money"></span> Cancel</a>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left">
+					<h5 id="ch-points">$0.00</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-6 text-right">
+					<h5>Delivery:</h5>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left">
+					<h5 id="ch-delivery">$0.00</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-6 text-right">
+					<h5>Total:</h5>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left">
+					<h5 id="ch-total">$0.00</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-6 text-right">
+					<h5>Taxes:</h5>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left">
+					<h5 id="ch-taxes">$0.00</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-6 text-right">
+					<h5>Grand total:</h5>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left">
+					<h5 id="ch-grand">$0.00</h5>
+				</div>
+			</div>
+			<div class="row" id="balancerow">
+				<div class="col-md-4 col-xs-6 text-right">
+					<a href="javascript:useMyBalance(true);" class="btn btn-primary"
+						id="useBalanceBtn"><span class="fa fa-money"></span> Use
+						Balance <span id="ch-mybalance"></span></a> <a
+						href="javascript:useMyBalance(false);" class="btn btn-danger"
+						id="useBalanceBtnX" style="display: none;"><span
+						class="fa fa-money"></span> Cancel</a>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left">
+					<h5 id="ch-balance">$0.00</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-6 text-right">
+					<h5>Due:</h5>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left">
+					<h5 id="ch-due">$0.00</h5>
+				</div>
+			</div>
+			<div class="row" style="margin-bottom: 30px;">
+				<div class="col-md-3 col-xs-6 col-md-offset-6 text-center">
+					<a href="javascript:payAndPlaceOrder();"
+						class="btn btn-block btn-info" id="payBtn"><span
+						class="fa fa-credit-card fa-2x"></span> Place Your Order</a>
+				</div>
+				<div class="col-md-3 col-xs-6 text-center">
+					<a href="javascript:display('cartPage');"
+						class="btn btn-block btn-danger"><span
+						class="fa fa-close fa-2x"></span> Cancel</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="mods" style="display: none">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="mods-carousel" class="carousel slide"
+						data-interval="false" data-ride="carousel">
+						<ol id="mods-ids" class="carousel-indicators">
+						</ol>
+						<div class="carousel-inner" id="mods-items"></div>
+						<a href="#mods-carousel" class="left control-carousel hidden-xs"
+							data-slide="prev"> <i class="fa fa-angle-left"></i>
+						</a> <a href="#mods-carousel" class="right control-carousel hidden-xs"
+							data-slide="next"> <i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<!--Footer-->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="companyinfo">
+							<h2>
+								<span>Arurra Plazza</span> Free Topping Pizza
+							</h2>
+							<p>Why pay for the toppings when you can have them for free?</p>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a class="youtube"
+									href="http://www.youtube.com/watch?v=DI8VLrH3ImA">
+									<div class="iframe-img">
+										<img src="images/home/iframe1.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Guide #1</p>
+								<h2>Navigate the site</h2>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a class="youtube"
+									href="https://www.youtube.com/watch?v=nBAEJWkiywY">
+									<div class="iframe-img">
+										<img src="images/home/iframe2.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Guide #2</p>
+								<h2>Add items to card</h2>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a class="youtube"
+									href="https://www.youtube.com/watch?v=136RVIW5qWk">
+									<div class="iframe-img">
+										<img src="images/home/iframe3.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Guide #3</p>
+								<h2>Pay and checkout</h2>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe4.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Guide #4</p>
+								<h2>Manage your account</h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="address">
+							<img src="images/home/map.png" alt="" />
+							<p>3883 Don Mills Road, North York, ON, Canada</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Copyright © 2018 BSmarter.CA All rights
+						reserved.</p>
+					<p class="pull-right">
+						Designed by <span><a target="_blank"
+							href="http://www.bsmarter.ca">BSmarter.ca</a></span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/Footer-->
+	<div class="modal fade" id="responseModal" tabindex="-1" role="dialog"
+		aria-hidden="true" data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog modal-md">
+			<div
+				class="modal-content text-center border-radius-6 responseContent">
+				<h4 id="responseMessage"></h4>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="pickupOrDelivery" tabindex="-1"
+		role="dialog" aria-hidden="true" data-backdrop="static"
+		data-keyboard="false">
+		<div class="modal-dialog modal-md">
+			<div
+				class="modal-content text-center border-radius-6 responseContent">
+				<div class="row">
+					<div class="col-xs-12 text-center" style="margin: 5px;">
+						<a href="javascript:checkoutPrc('D');"
+							class="btn btn-block btn-info"><span class="fa fa-car fa-2x"></span>
+							Delivery</a>
+					</div>
+					<div class="col-xs-12  text-center" style="margin: 5px;">
+						<a href="javascript:checkoutPrc('P');"
+							class="btn btn-block btn-danger"><span
+							class="fa fa-road fa-2x"></span> Pickup</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="loginPop" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">×</button>
+					<h4 class="modal-title title">
+						<span id="losu-title">Login</span>
+					</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="login-form">
+								<form class="login-form row" name="login-form" method="post"
+									action="javascript:loginPrc('G');">
+									<div class="login-form-ctrl">
+										<div class="input-group" style="margin: 5px;">
+											<span class="input-group-addon"><i
+												class="fa fa-envelope-o fa-fw"></i></span> <input type="text"
+												name="loginEmail" id="loginEmail" class="form-control"
+												required="required" placeholder="email/phone/membership">
+										</div>
+										<div class="input-group" style="margin: 5px;">
+											<span class="input-group-addon"><i
+												class="fa fa-key fa-fw"></i></span> <input type="password"
+												name="loginPassword" id="loginPassword" class="form-control"
+												required="required" placeholder="your password">
+										</div>
+									</div>
+									<div class="login-form-ctrl" style="margin-top: 10px;">
+										<div class="form-group col-md-4 text-center">
+											<a href="javascript:loginPrc('G');"
+												class="btn btn-block btn-success"><span
+												class="glyphicon glyphicon-check"></span> Login</a>
+										</div>
+										<div class="form-group col-md-4 text-center">
+											<a href="javascript:loginPrc('R');"
+												class="btn btn-block btn-info"><span
+												class="glyphicon glyphicon-question-sign"></span> Password</a>
+										</div>
+										<div class="form-group col-md-4 text-center">
+											<a href="javascript:loginPrc('S');"
+												class="btn btn-block btn-primary"><span
+												class="glyphicon glyphicon-user"></span> Sign Up</a>
+										</div>
+									</div>
+								</form>
+								<div class="status message alert-success" style="display: none"></div>
+								<div class="status alert alert-danger" style="display: none"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="loadingData" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Please wait while loading menus and
+						specials ...</h4>
+				</div>
+				<div class="modal-body">
+					please don't use back and stay on the page.
+					<div class="progress">
+						<div
+							class="progress-bar progress-bar-success progress-bar-striped pbar"
+							role="progressbar" aria-valuenow="40" aria-valuemin="0"
+							aria-valuemax="100" style="width: 0%"></div>
+					</div>
+				</div>
+				<div class="modal-footer" id="XXXXXgetOptionsFooter">This may
+					take a few minutes based on your network access.</div>
+			</div>
+		</div>
+	</div>
+	<div id="getOptions" class="modal fade" data-backdrop="static"
+		data-keyboard="false" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Select an item</h4>
+				</div>
+				<div class="modal-body">
+					<div class="btn-group-vertical btn-block" id="getOptionsText"></div>
+				</div>
+				<div class="modal-footer" id="getOptionsFooter"></div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bs-example-modal-sm" id="wizardDialog"
+		tabindex="-1" data-backdrop="static" data-keyboard="false"
+		role="dialog" aria-hidden="true">
+		<div class="modal-admin">
+			<input type="hidden" id="wizType" value="" />
+			<div class="modal-content border-radius-6">
+				<div class="modal-header border-radius-top-6">
+					<h4 id="doQuesion" class="text-center">Please select</h4>
+				</div>
+				<div id="wizOptions" class="modal-body overflow-hidden"></div>
+				<div class="modal-footer">
+					<button id="doneBtn" type="button" class="btn btn-info pull-right"
+						onclick="wizOptionsDone()">
+						<span class="glyphicon glyphicon-ok"></span> Finish
+					</button>
+					<button id="nextBtn" type="button" class="btn btn-info pull-right"
+						onclick="wizOptionsNext()" style="margin-right: 10px;">
+						<span class="glyphicon glyphicon-arrow-right"></span> Next
+					</button>
+					<button id="backBtn" type="button"
+						class="btn btn-warning pull-left" onclick="wizOptionsBack()">
+						<span class="glyphicon glyphicon-arrow-left"></span> Back
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade bs-example-modal-sm" id="confirmDialog"
+		tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content border-radius-6">
+				<div class="modal-header border-radius-top-6">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">×</button>
+					<h4 class="modal-title text-center text-capitalize">Confirm
+						Delete Cart Item</h4>
+				</div>
+				<div class="modal-body overflow-hidden">
+					<div class="col-xs-12 mar-bot-15">
+						<h4 class="text-center ">Are you sure you want to delete the
+							cart item?</h4>
+					</div>
+					<div class="text-right hidden-xs">
+						<button type="reset"
+							class="btn btn-danger border-radius-4 width-100px"
+							data-dismiss="modal">No</button>
+						<button type="submit" onclick="removeCartItem()"
+							class="btn btn-primary border-radius-4 width-100px">Yes</button>
+					</div>
+					<div class="hidden-sm hidden-md hidden-lg mar-top-15">
+						<div class="col-xs-12 mar-bot-15 mnopadding">
+							<button type="submit" onclick="removeCartItem()"
+								class="btn btn-primary btn-block border-radius-4">Yes</button>
+						</div>
+						<div class="col-xs-12 mar-bot-15 mnopadding mobile-mar-top-10">
+							<button type="reset"
+								class="btn btn-danger btn-block border-radius-4"
+								data-dismiss="modal">No</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="mobDevice" class="hidden-xs hidden-sm"></div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+		integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+		crossorigin="anonymous"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/price-range.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/validate.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jsaes.js"></script>
+	<script src="js/bootstrap-switch.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<script src="https://checkout.stripe.com/checkout.js"></script>
+	<script type="text/javascript" src="js/bootstrap.youtubepopup.min.js"></script>
+	<script src="js/jquery-confirm.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/account.js"></script>
+	<script src="js/tools.js"></script>
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBbJnm0wQIfHLbivH0ew9rd3XgikpCQo0&libraries=places,geometry"></script>
+	<script>
+		$(document).ready(function() {
+			initApp();
+			setupUI();
+			getInitialData(function() {
+				renderIndexDeals(null);
+			}, true);
+		});
+	</script>
+</body>

@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="images/favicon.ico">
+
+<title>Reward - Business</title>
+
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+
+</head>
+
+<body>
+
+	<a href="javascript:test();">Test</a>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+		
+	<script type="text/javascript">
+	
+	function test1(){
+		var obj = {
+				tel : "4167078847",
+				name : "Amir",
+				email : "amir@peivandi.ca" ,
+				address : "121 Northwood Drive",
+				postalcode : "M2M 2K2",
+				points : "180",
+				balance : "10.50",
+				storeid : "1",
+				cardid : "87687628768"
+		};
+		
+		$.ajax({
+			type : 'POST',
+			url : 'service.php/addOrUpdateClientsByPhone',
+			dataType : 'json',
+			data : JSON.stringify(obj),
+			contentType : "application/json; charset=utf-8",
+			success : function(result) {
+				console.log("S");
+				console.log(result);
+			},
+			error : function(result) {
+				console.log("E");
+				console.log(result);
+			}
+		});
+	}
+
+	function test(){
+		var obj = {
+				tel : "4167078887",
+				points : "-18",
+				balance : "-4.5"
+		};
+		
+		$.ajax({
+			type : 'POST',
+			url : 'service.php/updateClientBalance',
+			dataType : 'json',
+			data : JSON.stringify(obj),
+			contentType : "application/json; charset=utf-8",
+			success : function(result) {
+				console.log("S");
+				console.log(result);
+			},
+			error : function(result) {
+				console.log("E");
+				console.log(result);
+			}
+		});
+	}
+
+	</script>
+</body>
+</html>

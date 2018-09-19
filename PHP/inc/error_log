@@ -1,0 +1,28 @@
+[18-Sep-2018 13:18:22 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/peiv9101/public_html/orderonline/PHP/inc/api.php on line 113
+[18-Sep-2018 13:18:22 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/peiv9101/public_html/orderonline/PHP/inc/api.php on line 113
+[18-Sep-2018 13:18:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Access denied for user 'root'@'localhost' (using password: YES)' in /home/peiv9101/public_html/orderonline/PHP/inc/api.php:115
+Stack trace:
+#0 /home/peiv9101/public_html/orderonline/PHP/inc/api.php(2217): MySQL->connect('localhost', 'root', 'gandom', 'ftprewarddb', NULL, NULL, 'utf8mb4')
+#1 /home/peiv9101/public_html/orderonline/PHP/inc/api.php(2745): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/peiv9101/public_html/orderonline/PHP/inc/api.php on line 115
+[18-Sep-2018 13:18:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Access denied for user 'root'@'localhost' (using password: YES)' in /home/peiv9101/public_html/orderonline/PHP/inc/api.php:115
+Stack trace:
+#0 /home/peiv9101/public_html/orderonline/PHP/inc/api.php(2217): MySQL->connect('localhost', 'root', 'gandom', 'ftprewarddb', NULL, NULL, 'utf8mb4')
+#1 /home/peiv9101/public_html/orderonline/PHP/inc/api.php(2745): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/peiv9101/public_html/orderonline/PHP/inc/api.php on line 115
+[18-Sep-2018 13:18:53 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/peiv9101/public_html/orderonline/PHP/inc/api.php on line 113
+[18-Sep-2018 13:18:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Access denied for user 'root'@'localhost' (using password: YES)' in /home/peiv9101/public_html/orderonline/PHP/inc/api.php:115
+Stack trace:
+#0 /home/peiv9101/public_html/orderonline/PHP/inc/api.php(2217): MySQL->connect('localhost', 'root', 'gandom', 'ftprewarddb', NULL, NULL, 'utf8mb4')
+#1 /home/peiv9101/public_html/orderonline/PHP/inc/api.php(2745): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/peiv9101/public_html/orderonline/PHP/inc/api.php on line 115
+[18-Sep-2018 13:18:53 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/peiv9101/public_html/orderonline/PHP/inc/api.php on line 113
+[18-Sep-2018 13:18:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Access denied for user 'root'@'localhost' (using password: YES)' in /home/peiv9101/public_html/orderonline/PHP/inc/api.php:115
+Stack trace:
+#0 /home/peiv9101/public_html/orderonline/PHP/inc/api.php(2217): MySQL->connect('localhost', 'root', 'gandom', 'ftprewarddb', NULL, NULL, 'utf8mb4')
+#1 /home/peiv9101/public_html/orderonline/PHP/inc/api.php(2745): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/peiv9101/public_html/orderonline/PHP/inc/api.php on line 115
